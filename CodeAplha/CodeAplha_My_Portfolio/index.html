@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">GD</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>I'm Ghaniya Dawood<br> A Front-end Developer</h1>
+            <p class="sub-text">A fresh <span class="highlight">Software Engineer</span></p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-img">
+                <img src="image_1_long.webp" alt="Working Image">
+            </div>
+            <div class="about-text">
+                <h2>My Bio</h2>
+                <p>As a passionate Frontend Developer, I’m currently honing my skills and gaining hands-on experience in web development. My journey is driven by a love for creating seamless, user-friendly interfaces. With a strong foundation in HTML, CSS, and JavaScript, I’m eager to apply my knowledge and continue learning in this fast-paced industry. I'm always looking for new opportunities to expand my expertise and contribute to meaningful projects.</p>
+                <div class="skills">
+                    <div class="skill">
+                        <span>Design</span>
+                        <div class="skill-bar" style="width: 80%;">
+                            <span class="percentage">80%</span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML5</span>
+                        <div class="skill-bar" style="width: 95%;">
+                            <span class="percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS3</span>
+                        <div class="skill-bar" style="width: 88%;">
+                            <span class="percentage">88%</span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>WordPress</span>
+                        <div class="skill-bar" style="width: 76%;">
+                            <span class="percentage">76%</span>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="skill-bar" style="width: 92%;">
+                            <span class="percentage">92%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <a class="btn btn-outline-success" href="#contact" role="button">Hire Me</a>
+                    <a class="btn btn-outline-success" href="https://drive.google.com/file/d/1Sa1P1oqybt8n5IKuHDOIGB7avenX2DJH/view?usp=sharing" role="button">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="project1.PNG" class="d-block w-100" alt="Project 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Flower Website</h5>
+                        <p>Elegant floral website with captivating visuals.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="project2.PNG" class="d-block w-100" alt="Project 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Tutor Hub, A learning platform</h5>
+                        <p>Interactive tutor hub platform with dynamic features for seamless learning.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="project3.PNG" class="d-block w-100" alt="Project 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Donation Management System</h5>
+                        <p>Efficient donation management system for seamless tracking and organization.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    
+    
+
+    <section id="services" class="services">
+        <h2>My Services</h2>
+        <div class="services-list">
+            <div class="service-item">
+                <h3>Web Design</h3>
+                <p>I create user-friendly and responsive web designs.</p>
+            </div>
+            <div class="service-item">
+                <h3>Web Development</h3>
+                <p>I develop websites using modern technologies like HTML, CSS, JavaScript, and more.</p>
+            </div>
+            <div class="service-item">
+                <h3>UI/UX Design</h3>
+                <p>I design intuitive user interfaces and ensure a great user experience.</p>
+            </div>
+            <div class="service-item">
+                <h3>Performance Optimization</h3>
+                <p>I optimize websites for faster load times and better performance.</p>
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <section id="resume" class="resume">
+    <h2>My Resume</h2>
+    <div class="container">
+        <div class="accordion" id="resumeAccordion">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="educationHeading">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#educationCollapse" aria-expanded="true" aria-controls="educationCollapse">
+                        Education
+                    </button>
+                </h2>
+                <div id="educationCollapse" class="accordion-collapse collapse show" aria-labelledby="educationHeading" data-bs-parent="#resumeAccordion">
+                    <div class="accordion-body">
+                        <p><strong>HSC in Pre-Engineering</strong>, Govt Degree College North Nazimabad Block "M"</p>
+                        <p><strong>Bachelor's in Software Engineering</strong>, Jinnah University for Women (CGPA: 3.46/4.00, currently in 6th semester)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="experienceHeading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#experienceCollapse" aria-expanded="false" aria-controls="experienceCollapse">
+                        Experience
+                    </button>
+                </h2>
+                <div id="experienceCollapse" class="accordion-collapse collapse" aria-labelledby="experienceHeading" data-bs-parent="#resumeAccordion">
+                    <div class="accordion-body">
+                        <p><strong>Frontend Developer Intern</strong>, Code Alpha</p>
+                        <p><strong>Web Developer Intern</strong>, Oasis Info Byte</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="skillsHeading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#skillsCollapse" aria-expanded="false" aria-controls="skillsCollapse">
+                        Skills
+                    </button>
+                </h2>
+                <div id="skillsCollapse" class="accordion-collapse collapse" aria-labelledby="skillsHeading" data-bs-parent="#resumeAccordion">
+                    <div class="accordion-body">
+                        <p><strong>HTML & CSS</strong></p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                        <p class="mt-3"><strong>JavaScript</strong></p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                        <p class="mt-3"><strong>PHP</strong></p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+  
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="">LinkedIn</a>
+            <a href="">GitHub</a>
+            <a href="">Facebook</a>
+            <a href="">Instagram</a>
+        </div>
+    </section>
+    
+
+    <script src="scripts.js"></script>
+</body>
+</html>
